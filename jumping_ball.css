@@ -1,0 +1,32 @@
+
+
+.jumping_ball img{
+    position: absolute;
+    
+    left:50%;
+   
+    animation-name: Jumping;
+    animation-duration: 2s;
+    animation-timing-function:ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+
+@keyframes Jumping
+{
+    from{
+    top :300px;
+    
+     width: 10%;
+     
+   
+    }
+    to{
+    top :200px; 
+    
+     width: 100%;
+    }
+    
+}
